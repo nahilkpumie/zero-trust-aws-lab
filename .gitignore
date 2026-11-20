@@ -1,0 +1,19 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+crash.log
+crash.*.log
+
+# Variables : peuvent contenir des valeurs sensibles
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Identifiants
+.env
+*.pem
+*.csv
+credentials
+.aws/
